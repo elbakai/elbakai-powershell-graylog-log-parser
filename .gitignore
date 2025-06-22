@@ -1,0 +1,16 @@
+# Ignore runtime log outputs
+logs/
+*.done.txt
+*.hashing.txt
+*.parsing.txt
+logs_failed.txt
+
+# Ignore PowerShell temp files
+*.ps1~
+*.ps1.save
+
+# Ignore editor/OS metadata
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
