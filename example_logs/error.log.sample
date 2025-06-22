@@ -1,0 +1,12 @@
+192.168.13.56 2025-01-22 11:43:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/image/1234567890.jpg
+Stack Trace:
+#0 /website/cakephp/Controller/AppController.php(233): Controller->invokeAction(Object(CakeRequest))
+#1 /website/cakephp/lib/Cake/Routing/Dispatcher.php(193): AppController->invokeAction(Object(CakeRequest))
+#2 /website/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#3 /website/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#4 {main}
